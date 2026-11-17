@@ -1,0 +1,20 @@
+{
+    "interface": {
+        "capabilities": ["Chat", "Data retrieval", "Actions"],
+        "category": "Productivity",
+        "defaultPrompt": "Connect to my CartVai store and help me review sales, track orders, manage products, and adjust stock.",
+        "developerName": "Md Nurullah",
+        "displayName": "CartVai AI Assistant",
+        "longDescription": "Connect ChatGPT to CartVai to review store summaries, manage orders, products, customers, and inventory. The assistant uses the connected merchant's authorized CartVai MCP tools and must not assume access to data beyond that connection.",
+        "shortDescription": "Manage your CartVai store"
+    },
+    "name": "cartvai-ai-assistant",
+    "version": "1.1.0",
+    "description": "An AI assistant for CartVai merchants to inspect store performance, orders, products, customers, inventory, and safely manage orders and catalog through the CartVai MCP API.",
+    "author": {
+        "name": "Workspace upload"
+    },
+    "keywords": ["cartvai", "ecommerce", "orders", "inventory", "bangladesh"],
+    "skills": "./skills",
+    "mcpServers": "./.mcp.json"
+}

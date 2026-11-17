@@ -1,0 +1,17 @@
+{
+    "mcpServers": {
+        "cartvai": {
+            "type": "streamable-http",
+            "url": "https://app.cartvai.com/api/mcp",
+            "headers": {},
+            "extensions": {
+                "com.openai": {
+                    "auth": {
+                        "type": "api_key",
+                        "headerScheme": "bearer"
+                    }
+                }
+            }
+        }
+    }
+}
