@@ -1,17 +1,9 @@
 {
-    "mcpServers": {
-        "cartvai": {
-            "type": "streamable-http",
-            "url": "https://app.cartvai.com/api/mcp",
-            "headers": {},
-            "extensions": {
-                "com.openai": {
-                    "auth": {
-                        "type": "api_key",
-                        "headerScheme": "bearer"
-                    }
-                }
-            }
-        }
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
+  "mcpServers": {
+    "cartvai": {
+      "type": "streamable-http",
+      "url": "https://app.cartvai.com/api/mcp"
     }
+  }
 }
